@@ -1,0 +1,6 @@
+list1 = []
+n = int(input("Enter number of elements in the list : "))
+list1 = list(map(int,input("Enter the numbers : ").strip().split(',')))[:n]
+for i in list1 :
+    if i >= 0:
+       print(i, end = " ")
